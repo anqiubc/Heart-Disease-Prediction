@@ -14,7 +14,6 @@ This database contains 76 attributes, but all published experiments refer to usi
 Use all the features provided to predict the presence of heart disease for individual patience, which represented by 1(has heart disease) and 0 (no heart disease). It's actually a binary classification problem. 
 
 ## Conclusion
-
 I designed a function to evaluate a classification model's performance through multiple metrics on the test set, and another function to display model's performance using Cross-Validation. Then I compared the following classifiers: Logistic regression, Random Forest, Gradient-boosted decision trees, SVM, KNN, and MLPClassifier.   
 
 For each kind of model, I did a grid search for choosing the parameter, then compared the performance of different kinds of models.  
